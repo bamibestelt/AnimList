@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android" 
+       android:paddingTop="2dip"
+       android:paddingBottom="2dip"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:minHeight="?android:attr/listPreferredItemHeight"
+       android:mode="twoLine"
+   >
+       
+       	<Button
+   				android:id="@+id/erase"
+   				android:layout_marginLeft="6dip"
+       			android:layout_marginTop="6dip"
+   				android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/closebtn"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+            />
+           <!-- <ImageButton android:id="@+id/soundf"
+       			android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_below="@+id/erase"
+                android:layout_alignLeft="@+id/erase"
+                android:background="@drawable/soundinv"
+                
+           		/> --> 
+           <TextView android:id="@+id/texxt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/erase"
+                android:layout_alignTop="@+id/erase"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#CC0"
+           />
+                   
+           <TextView android:id="@+id/texxt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/texxt1"
+           		android:layout_alignLeft="@+id/texxt1"
+           		android:textAppearance="?android:attr/textAppearanceSmall"
+           		android:textColor="#FFF"
+           />
+   </TwoLineListItem>
